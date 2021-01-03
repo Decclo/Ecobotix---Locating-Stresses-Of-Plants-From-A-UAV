@@ -1,0 +1,5 @@
+https://unix.stackexchange.com/questions/138804/how-to-transform-a-text-file-into-a-picture
+
+report_test: convert -size 400x200 xc:white -font "FreeMono" -pointsize 12 -fill black -draw @report_test.txt report_test.jpg
+
+model_summary: convert -size 380x560 xc:white -font "FreeMono" -pointsize 12 -fill black -draw @model_summary.txt model_summary.jpg

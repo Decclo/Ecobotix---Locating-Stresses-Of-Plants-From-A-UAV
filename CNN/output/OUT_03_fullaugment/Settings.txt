@@ -1,0 +1,16 @@
+Settings:
+
+BASE_PATH_INPUT:  input/dataset_split_rgba_jpg/
+BASE_PATH_OUTPUT:  output/OUT_03_fullaugment
+
+
+img_size:  128
+img_rows:  128
+img_cols:  128
+img_color:  rgba
+img_depth:  4
+
+
+EPOCHS:  1000
+BATCH_SIZE:  100
+INIT_LR:  0.001

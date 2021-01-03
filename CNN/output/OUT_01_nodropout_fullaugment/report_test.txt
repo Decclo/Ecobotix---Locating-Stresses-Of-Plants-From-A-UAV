@@ -1,0 +1,15 @@
+text 15,15 "Confusion Matrix of test data
+[[461 123]
+ [ 53 544]]
+
+
+Classification Report of test data
+              precision    recall  f1-score   support
+
+     Field_1       0.90      0.79      0.84       584
+     Field_4       0.82      0.91      0.86       597
+
+    accuracy                           0.85      1181
+   macro avg       0.86      0.85      0.85      1181
+weighted avg       0.86      0.85      0.85      1181
+"

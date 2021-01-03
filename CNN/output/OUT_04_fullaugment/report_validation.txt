@@ -1,0 +1,15 @@
+Confusion Matrix of validation data
+[[178  35]
+ [ 25 234]]
+
+
+Classification Report of validation data
+              precision    recall  f1-score   support
+
+     Field_1       0.88      0.84      0.86       213
+     Field_4       0.87      0.90      0.89       259
+
+    accuracy                           0.87       472
+   macro avg       0.87      0.87      0.87       472
+weighted avg       0.87      0.87      0.87       472
+
