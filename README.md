@@ -10,7 +10,7 @@ We will then create a new environment with `conda env create -f environment.yml`
 ## Usage
 If you chose not to add the Conda hook to your .bashrc, you can add it with `eval "$(/home/$USER/miniconda3/bin/conda shell.bash hook)"`. Now activate the Conda environment with `conda activate msth` and start the Jupyter notebook with `jupyter notebook ./'` assuming that your terminal is currently inside the this git repository.
 
-You can now use the 'Orthomosaic_to_dataset' script to turn the included 6-channel image into smaller images using the the included mask. A RGB image will also be plit in the same way as to give better insight into the workings of the output.
+You can now use the 'Orthomosaic_to_dataset' script to turn the [6-channel image](https://nextcloud.sdu.dk/index.php/s/7sBnWS59GyMom4k) into smaller images using the the included mask. A RGB image will also be plit in the same way as to give better insight into the workings of the output.
 
 After this, the 'Build_dataset' script in the 'CNN' directory can be used to create training, valiation, and test datasets for the CNN. 
 
